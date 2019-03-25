@@ -1,0 +1,74 @@
+
+/* NAVIGATION */
+.main-nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    padding: 1em 0;
+    font-size: 0.8em;
+    justify-content: flex-end;
+}
+
+.main-nav li {
+    padding: 0 1em;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #f5f5f6;
+ }
+
+.push {
+    margin-right: auto;
+}
+
+/* HEADER */
+header section {
+    background-image: url(header.jpg);
+    background-size: contain;
+    min-height: 50vh;
+}
+
+header section h2 {
+    padding-top: 3em;
+    color: aliceblue;
+}
+
+/* FEATURES */
+#features {
+    padding: 1em;
+}
+
+#features div {
+    padding: 1em 0;
+}
+
+/* HOW IT WORKS */
+#how-it-works {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center
+}
+iframe {
+    max-width: 560px;
+    width: 100%;
+}
+
+/* PRICING */
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    margin-top: 100px;
+}
+
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 3em;
+    background: teal;
+    color: white;
+    padding: 1em;
+}
